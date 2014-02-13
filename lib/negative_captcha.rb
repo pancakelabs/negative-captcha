@@ -1,6 +1,6 @@
 require 'digest/md5'
 require 'action_view'
-require 'active_support/hash_with_indifferent_access'
+require 'active_support/core_ext'
 
 class NegativeCaptcha
   attr_accessor :fields,
